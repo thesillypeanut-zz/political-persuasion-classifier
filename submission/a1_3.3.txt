@@ -1,0 +1,40 @@
+5 p-values: [0.0001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0001, 0.6477, 0.0, 0.0, 0.0, 0.0, 0.2566, 0.0, 0.0, 0.0063, 0.0, 0.7972, 0.277, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.9089, 0.0, 0.0, 0.0551, 0.0, 0.0006, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0001, 0.0, 0.0399, 0.6151, 0.0, 0.0, 0.0012, 0.0, 0.0, 0.1177, 0.0248, 0.0, 0.0, 0.0026, 0.0, 0.0, 0.0, 0.0839, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.022, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0017, 0.0, 0.1096, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.014, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0068, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+50 p-values: [0.0001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0001, 0.6477, 0.0, 0.0, 0.0, 0.0, 0.2566, 0.0, 0.0, 0.0063, 0.0, 0.7972, 0.277, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.9089, 0.0, 0.0, 0.0551, 0.0, 0.0006, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0001, 0.0, 0.0399, 0.6151, 0.0, 0.0, 0.0012, 0.0, 0.0, 0.1177, 0.0248, 0.0, 0.0, 0.0026, 0.0, 0.0, 0.0, 0.0839, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.022, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0017, 0.0, 0.1096, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.014, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0068, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+Accuracy for 1k: 0.3018
+Accuracy for full dataset: 0.3655
+Chosen feature intersection: {2, 11, 21}
+Top-5 at higher: {1, 2, 11, 21, 149}
+
+(a) 
+    2. Number of second-person pronouns
+
+    Second-person pronouns are expected to be used to express sentiments which also applies in
+    the context of political speech and rhetoric.
+
+    11. Number of adverbs
+
+    Adverbs qualify verbs, adjectives and other adverbs, and thus are expected to be used in 
+    persuasive/expressive language to describe how, when, where, how often, and how much an 
+    action is performed.
+
+    21. Standard deviation of IMG from Bristol, Gilhooly, and Logie norms
+
+    Imageability of words indicate how easily a mental image of the word can be formed. The
+    standard deviation of the imageability tells us how spread out it is from the average and
+    a more ambiguous word is therefore expected to have a higher std dev and vice versa. Imagery
+    of words is expected to be seen in persuasive speech due to its psychological nature.
+
+(b) With more data, p-values are lower because more samples are likely to provide more feature
+counts and thus each feature contributes towards better separating the classes. 
+
+(c)
+    1. Number of first-person pronouns
+    2. Number of second-person pronouns
+    11. Number of adverbs
+    21. Standard deviation of IMG from Bristol, Gilhooly, and Logie norms
+    149. Receptiviti intellectual
+
+The hypotheses for features 2, 11 and 21 are explained in part (a). Feature 1 has a similar  
+reasoning to second-person pronouns. Feature 149 is one of the top 5 features possibly 
+because political speech is expected to be intellectual in nature in order to persuade and engage
+readers. Such language may often use bias to convince people of certain viewpoints.
